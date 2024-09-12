@@ -35,7 +35,7 @@ nav a {
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url(../css/assets/images/pic4.jpg);
-    height: 100vh;
+    height: 120vh;
     background-size: 100vh;
     background-size: cover;
     padding-top: 50px;
@@ -50,14 +50,14 @@ nav a {
     font-size: 60px;
     color: white;
     font-style: oblique;
-    margin-left: 20%;
+    margin-left: 10%;
 
 }
 
 .subtitle {
     font-size: 30px;
     color: white;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .hero-info {
@@ -71,7 +71,7 @@ nav a {
     color: white;
     /* width: 10%; */
     border: none;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .dropdown {
@@ -83,7 +83,7 @@ nav a {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 1fr;
     width: 180px;
-    margin-right: 0%;
+    margin-right: 20px;
 
  }
  .animals-big-container{
@@ -112,8 +112,8 @@ nav a {
     background-color: #A83D3B;
     border: thin;
     border-radius: 5%;
-    margin-right: 15%;
-    margin-bottom: 20px;
+    /* margin-right: 15%; */
+    /* margin-bottom: 20px; */
     font-size: medium;
     
 
@@ -121,23 +121,25 @@ nav a {
 
 .form-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
-    padding-top: 30%;
+    /* padding-top: 30%; */
     background-color: #F9F9FF;
-    padding-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* padding-top: 50px; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 150px;
     align-items: center;
+    height: 90px;
 }
 .forms {
     width: 400px;
     gap: 10px;
     font-size: 30px;
-    margin-right: 10px;
-    margin: 20px;
-    margin-bottom: 20px;
+    /* margin-right: 10px; */
+    /* margin: 20px; */
+    /* margin-bottom: 20px; */
 
 
 }
@@ -199,7 +201,7 @@ nav a {
 }
 .main-section {
     width: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
 }
 #animal-container {
@@ -216,7 +218,9 @@ height: 100%;
 }
  
   .image-section {
-    margin-top: 90px;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 10px;
   }
   .gallery{
     width: 100%;
@@ -233,7 +237,7 @@ height: 100%;
    .flex-gallery {
    width: 70%;
    height: 70%;
-   margin-left: 150px;
+   margin-left: 50px;
    
    
   } 
@@ -253,7 +257,7 @@ height: 100%;
   .gallery-body {
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 50vh;
     font-size: 40px;
     color: gray;
   }
@@ -276,19 +280,20 @@ input {
 .bottom-hero h1 {
     display: flex;
     justify-content: center;
-    /* height: 40vh; */
+    height: 5vh; 
     font-size: 40px;
-    color: gray;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 40px;
 
 }
 .bottom-hero p {
     display: flex;
     justify-content: center;
-    /* height: 40vh; */
+    height: 5vh;
     font-size: 40px;
-    color: black;
+    color: gray;
     margin-bottom: 10px;
 
 }
@@ -302,5 +307,162 @@ input {
     display: flex;
 }
 .adopting-secttion{
-    background-color: #DA9A79;
+    background-color: #f1dacf;
+    height: 120vh;
+}
+.icons-description1 {
+    margin-top: 80px;
+    margin-right: 40px;
+    height: 50vh;
+   
+}
+.icons-description2 {
+    margin-top: 80px;
+    margin-right: 40px;
+    height: 50vh;
+}
+.icons-description3 {
+    margin-top: 0px;
+    margin-right: 40px;
+    height: 50vh;
+}
+.icons-description4 {
+    margin-top: 80px;
+    margin-right: 40px;
+    height: 50vh;
+}
+.icons-description1 h4 {
+    font-size: 20px;
+    margin: 1.8rem;
+    color: gray;
+} 
+.icons-description2 h4 {
+    font-size: 20px;
+    margin: 1.8rem;
+    color: gray;
+} 
+.icons-description3 h4 {
+    font-size: 20px;
+    margin: 1.8rem;
+    color: gray;
+} 
+.icons-description4 h4 {
+    font-size: 20px;
+    margin: 1.8rem;
+    color: gray;
+    padding-left: 22px;
+} 
+.icons-description1 p {
+    font-size: 16px;
+    line-height: 1.63;
+    margin-left: 20px;
+    height: 10vh;
+}
+.icons-description2 p {
+    font-size: 16px;
+    line-height: 1.63;
+}
+.icons-description3 p {
+    font-size: 16px;
+    line-height: 1.63;
+}
+.icons-description4 p {
+    font-size: 16px;
+    line-height: 1.63;
+    padding-left: 22px;
+}
+
+.testimonial-container {
+    display: flex;
+    padding-top: 80px;
+}
+.testimonial-item {
+    padding-top: 20px;
+    /* padding-left: 400px; */
+    text-align: center;
+}
+.testimonial-item p {
+padding-top: 15px;
+color: gray;
+font-size: 20px;
+align-items: center;
+}
+.testimonial-item h1 {
+padding-top: 15px;
+font-size: 50px;
+}
+.testimonial-group {
+    background-color: #f7f4f3;
+    height: 100vh;
+    margin-top: 70px;
+}
+.testimonials1 {
+    padding: 20px;
+    font-size: 20px;
+    margin: 1.8rem;
+    color: gray;
+    padding-left: 22px;
+    text-align: center;
+}
+.testimonials2 {
+    padding: 20px;
+    font-size: 20px;
+    margin: 1.8rem;
+    color: gray;
+    padding-left: 22px;
+    text-align: center;
+}
+.testimonials3 {
+    padding: 20px;
+    font-size: 20px;
+    margin: 1.8rem;
+    color: gray;
+    padding-left: 22px;
+    text-align: center;
+}
+.concluding {
+    /* height: 20vh; */
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../css/assets/images/d3.jpg);
+    height: 70vh;
+    background-size: 100vh;
+    background-size: cover;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    margin-top: 80px;
+}
+.concluding h2{
+    font-size: 50px;
+    /* padding-top: 100px; */
+    color: whitesmoke;
+}
+.concluding p {
+    margin: 20px;
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.concluding-button{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.concluding-button1 {
+    background-color: rgba(165, 42, 42, 0.836);
+    padding: 20px;
+    color: white;
+    /* width: 10%; */
+    border: none;
+    /* margin-left: 20%; */
+}
+.concluding-button2 {
+    background-color: rgba(165, 42, 42, 0.836);
+    padding: 20px;
+    color: white;
+    /* width: 10%; */
+    border: none;
+    /* margin-left: 20%; */
 }
