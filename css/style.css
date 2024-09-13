@@ -251,14 +251,15 @@ height: 100%;
     display: flex;
     justify-content: center;
     height: 10vh;
-    font-size: 40px;
+    font-size: 30px;
+    align-items: center;
     
   }
   .gallery-body {
     display: flex;
     justify-content: center;
-    height: 50vh;
-    font-size: 40px;
+    height: 20vh;
+    font-size: 20px;
     color: gray;
   }
   .input-section {
@@ -361,10 +362,14 @@ input {
 .icons-description2 p {
     font-size: 16px;
     line-height: 1.63;
+    margin-left: 20px;
+    height: 10vh;
 }
 .icons-description3 p {
     font-size: 16px;
     line-height: 1.63;
+    margin-left: 20px;
+    height: 10vh;
 }
 .icons-description4 p {
     font-size: 16px;
@@ -466,3 +471,109 @@ gap: 30px;
     border: none;
     /* margin-left: 20%; */
 }
+footer {
+    width: 81.5%;
+    /* position: absolute; */
+    bottom: 0;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    color: #fff;
+    padding: 100px; 
+    border-top-left-radius: 125px;
+       
+}
+.footer-tag{
+   align-self: flex-start;
+   /* margin-top: -20px;  */
+    text-decoration: none;
+    margin-right: 100px;
+    justify-content: center;
+    /* height: 70vh; */
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+
+}
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.main-footer h3 {
+    text-decoration: none;
+    font-style: oblique;
+    color: lightgray;
+    flex-basis: 25%;
+    /* align-self: flex-start; */
+    margin-top: 0;
+}
+.main-footer li {
+    list-style-type: none;
+    margin-top: 12px;
+}
+.address h3 {
+    width: fit-content;
+    margin-bottom: 12px;
+    /* position: relative; */
+}
+.email {
+    /* width: fit-content; */
+    border-bottom: 1px; 
+    margin: 20px; 
+}
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px; 
+    margin-bottom: 50px;
+    width: 200px;
+    height: 20px;
+}
+ form .fa-solid {
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input {
+    width: 100%;
+    background: transparent;
+    color: #270e02a1;
+    border: 0;
+    outline: none;
+    padding: 20px;
+}
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+    font-size: 16;
+    color: #f55106;
+}
+
+.fa-brands {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    /* background: #fff; */
+    color: blueviolet;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto; 
+}
+.copyright {
+    text-align: center;
+}
+
+

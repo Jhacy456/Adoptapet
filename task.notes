@@ -1,0 +1,48 @@
+<
+            <div class="footer">
+                <div class="footer-flex">
+                <div class="footer-head">
+                    <div><a href="">PetShelter By Jacinta</a></div>
+                    <i class="fa-regular fa-registered" style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 40px; margin: 0; padding: 0; position: relative;">2024</i>
+                </div>
+
+                <div class="footer1">
+                    <a href="">Shelter Hours</a>
+                    <li>Tuesdays - Saturdays</li>
+                    <li>9AM - 3PM Each Day</li>
+                    <li>Holidays 12PM - 4PM</li>
+                </div>
+
+                <div class="footer2">
+                    <a href="">Shelter</a>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Contact Us</li>
+                </div>
+             </div>
+
+                <div class="footer3">
+                    
+                    <a href="">Further Information</a>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <i class="fa-solid fa-dog" style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 40px; margin: 0; padding: 0; position: relative;"></i>
+                    <i class="fa-solid fa-cat" style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 40px; margin: 0; padding: 0; position: relative;"></i>
+                </div>
+
+
+                <div class="footer4">
+                    <h1>Follow Us</h1>
+                </div>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-square-instagram"
+                        style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 20px; margin: 0; padding: 0; position: relative; line-height: 90vh;"></i>
+                    <i class="fa-brands fa-facebook"
+                        style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 40px; margin: 0; padding: 0; position: relative; line-height: 90vh;"></i>
+                    <i class="fa-brands fa-whatsapp"
+                        style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 40px; margin: 0; padding: 50; position: relative; line-height: 90vh;"></i>
+                    <i class="fa-brands fa-x-twitter"
+                        style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 40px; margin: 0; padding: 0; position: relative; line-height: 90vh;"></i>
+                    <i class="fa-solid fa-at"
+                        style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000; margin: 80px; display: flex; align-items: center;  justify-content: space-between; display: inline-block; width: 40px; height: 40px; margin: 0; padding: 0; position: relative; line-height: 90vh;"></i>
+                </div>
